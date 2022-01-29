@@ -22,3 +22,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 src/services/fetch-data/node_modules/*
+package-lock.json
+src/services/gateway/node_modules/*
+src/services/get-data/node_modules/*
+src/services/update-data/node_modules/*
+package-lock.json
+package-lock.json
