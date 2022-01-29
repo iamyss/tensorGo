@@ -5,7 +5,7 @@ LABEL authors="Yash Shah <yashrocks.shah@gmail.com>"
 WORKDIR /www
 COPY . .
 RUN npm install && npm cache clean --force
-
+ENV MONGO_URL="host.docker.internal"
 EXPOSE 8003
 
 CMD ["npm", "start"]

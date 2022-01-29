@@ -1,14 +1,17 @@
 {
-  "name": "get-data",
+  "name": "fetch-data",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.2",
     "mongoose": "^6.1.8",
     "node-modules": "^1.0.1"
   }

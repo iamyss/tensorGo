@@ -2,7 +2,7 @@ const request = require("request");
 var express = require("express");
 const app= express();
 var UserModel = require('./user');
-var config = require('../config');
+var config = require('./config');
 const mongoose = require('mongoose');
 const router = express.Router();
 

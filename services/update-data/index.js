@@ -2,9 +2,9 @@ const request = require("request");
 var express = require("express");
 const app = express();
 var UserModel = require('./user');
-var config = require('../config');
+var config = require('./config');
 const mongoose = require('mongoose');
-const user = require("../get-data/user");
+const user = require("./user");
 const router = express.Router();
 
 mongoose.connect(
